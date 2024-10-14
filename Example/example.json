@@ -1,0 +1,44 @@
+{
+    "network_health": [
+      {
+        "timestamp": "2024-08-26T12:00:00.123456Z",
+        "source_port": 443,
+        "destination_port": 52345,
+        "protocol": "TCP",
+        "length": 1500,
+        "traffic_direction": "inbound",
+        "packet_rate": 250,
+        "data_rate": 200000,
+        "is_encrypted": true,
+        "destination_device": "Linux server",
+        "type": 0,
+        "malicious": "1",
+        "cpu_usage": 65.7,
+        "memory_usage": 72.3,
+        "disk_usage": 88.7,
+        "network_traffic_in": 650,
+        "network_traffic_out": 450,
+        "risk_score": 3
+      },
+      {
+        "timestamp": "2024-08-26T12:05:00.123456Z",
+        "source_port": 8080,
+        "destination_port": 52345,
+        "protocol": "UDP",
+        "length": 1400,
+        "traffic_direction": "outbound",
+        "packet_rate": 350,
+        "data_rate": 150000,
+        "is_encrypted": false,
+        "destination_device": "Windows server",
+        "type": 0,
+        "malicious": "0",
+        "cpu_usage": 45.2,
+        "memory_usage": 65.4,
+        "disk_usage": 70.3,
+        "network_traffic_in": 450,
+        "network_traffic_out": 350,
+        "risk_score": 2
+      }
+    ]
+  }
